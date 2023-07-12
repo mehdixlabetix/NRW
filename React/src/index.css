@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  background: linen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 160px);
+  height: 100vh;
+}
+
+.alert
+{
+  color: red;
+}
+.main
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.m
+{
+  background: aquamarine;
+  width: calc(30% - 10px );
+  margin-right: 10px;
+}
+.stop
+{
+  transition: 1s;
+}
+.move
+{
+  transform: translateY(200%);
+}
+.button{
+
+
+}
+.nav
+{ background: darkslategray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.nav-item{
+  color: tomato ;
+  background-color: transparent;
+  text-decoration: none;
+}
+.player-wrapper
+{ display: flex;
+  justify-content: space-around;
+}
+.container
+{
+  height: 80vh;
+}
+.good{
+  color: green;
+}
+.preds, th, td{
+  /*make black lines between values in table*/
+    border-collapse: collapse;
+    /*make black lines around table*/
+    border: 1px solid black;
+
+
+    margin-left: 42%;
+
+
+}
